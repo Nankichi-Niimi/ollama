@@ -9,7 +9,7 @@ set -o pipefail
 echo "Starting darwin generate script"
 source $(dirname $0)/gen_common.sh
 init_vars
-git_module_setup
+# git_module_setup
 apply_patches
 
 sign() {
